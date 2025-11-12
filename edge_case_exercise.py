@@ -9,7 +9,7 @@ def move(my_list, direction):
 
     return my_list
 
-    # Move the one to the left or to the right
+
     if direction == 'right':
         my_list[index_of_one] = 0
         my_list[index_of_one + 1] = 1
